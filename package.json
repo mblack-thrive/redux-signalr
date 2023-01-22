@@ -21,7 +21,6 @@
   ],
   "scripts": {
     "prepare": "install-peers -f",
-    "prepublish": "yarn build",
     "build": "node ./node_modules/typescript/bin/tsc --project ./tsconfig.json"
   },
   "repository": {
